@@ -67,8 +67,7 @@ gsap.fromTo('.contactInfo',
         trigger:'.skillInfo',
         start: 'top top+=50',
         scrub: true,
-        end: '+=100',
-        markers: true
+        end: '+=100'
     }
 });
 
