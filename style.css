@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    overflow-x: hidden;
+}
+
+canvas{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+ul{
+    list-style-type: none;
+}
+div{
+    text-align: center;
+}
+.container {
+    padding-top: 300px;
+    position: absolute;
+    z-index: 2;
+}
+
+.info{
+    width: 100vw;
+    height: 90vh;
+    color: white;
+    transform: translate(0%, -10%);
+}
+.personalInfo, .schoolInfo {
+    align-items: center;
+    justify-content: center;
+}
+
+.schoolInfo {
+    height: 70vh;
+}
+.skillInfo {
+    height: 10vh;
+    text-align: right;
+    transform: translate(-20%, -10%);
+    font-size: 3rem;
+}
+
+.list {
+    font-size: 2rem;
+}
+
+.contactInfo{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    position: fixed;
+    bottom: 55%;
+    right: 35%;
+    transform: translate(35%, 55%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email, .icon{
+    font-weight: 100;
+}
+
+.icon{
+    padding-right: 3px;
+    width: relative;
+    height: 25px;
+}
